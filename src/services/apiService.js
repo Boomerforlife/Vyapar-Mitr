@@ -1,7 +1,7 @@
 import { MOCK_COMPLIANCES } from '../mockData/compliances';
 import { MOCK_USER } from '../mockData/user';
 
-const BASE_URL = 'http://10.3.50.245:3000'; // Detected LAN IP
+const BASE_URL = 'http://10.9.212.160:3000'; // Detected LAN IP
 // const BASE_URL = 'http://localhost:3000'; // For simulator
 
 // Simulate network delay for non-chat mock calls
