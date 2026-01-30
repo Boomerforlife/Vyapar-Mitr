@@ -1,8 +1,7 @@
 import { MOCK_COMPLIANCES } from '../mockData/compliances';
 import { MOCK_USER } from '../mockData/user';
 
-const BASE_URL = 'http://10.9.212.160:3000'; // Detected LAN IP
-// const BASE_URL = 'http://localhost:3000'; // For simulator
+const BASE_URL = process.env.EXPO_PUBLIC_API_URL || 'http://10.9.212.160:3000';
 
 // Simulate network delay for non-chat mock calls
 const delay = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
