@@ -11,15 +11,9 @@
     "ios": {
       "supportsTablet": true
     },
-<<<<<<< HEAD
-    "name": "Vyapar Mitra",
+    "name": "Vyapar Mitr",
     "orientation": "portrait",
-    "slug": "vyapar-mitra",
-=======
-    "name": "Surefile",
-    "orientation": "portrait",
-    "slug": "surefile",
->>>>>>> ce015b401b06a41a6e1d10cc3b870c30cf700e96
+    "slug": "vyapar-mitr",
     "splash": {
       "backgroundColor": "#ffffff",
       "image": "./assets/splash-icon.png",
